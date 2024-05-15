@@ -11,7 +11,7 @@ A = A+ diag(a,1);
 T = chol(A);
 c = lowerTriangularSolve(T,y);
 output= upperTriangularSolve(T',c);
-% disp(output);
+disp(output);
 
 % part b:
 disp(condest(A));
