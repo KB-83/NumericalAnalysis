@@ -20,7 +20,9 @@ while k <= 100 && error > u
     k = k + 1;
 end
 disp(X);
+disp("k = ")
 disp(k);
+disp("error= ")
 disp(error);
 
 function result = grad_f(X)
