@@ -1,9 +1,7 @@
-% format long;
 h = 10^(-5);
 a = 0;
 b = 3;
 N = (b-a)/h;
-% Y = zeros(30,1);
 X = zeros(31,1);
 X_i = a;
 Y_i = 0;

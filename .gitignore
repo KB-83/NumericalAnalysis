@@ -12,3 +12,6 @@
 *.fdb_latexmk
 ### Matlab ###
 *.asv
+
+### not interested ###
+HW3/houseHolderQR.m
